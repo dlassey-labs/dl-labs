@@ -14,6 +14,8 @@ DL LABS is a self-hosted infrastructure platform designed to:
 ## 🧱 Core Stack
 
 - Proxmox (Virtualization)
+- vSphere (Virtualization)
+- VCF (Virtualization)
 - Terraform (Infrastructure as Code)
 - Ansible (Configuration Management)
 - GitLab CI/CD (Orchestration)
