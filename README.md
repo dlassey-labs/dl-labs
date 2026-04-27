@@ -80,4 +80,13 @@ GitLab acts as the central control plane:
 
 ## 👤 Author
 
-DL  
+**Dosseh L**
+Founder, DL-LABS | Consultant,
+Infrastructure · Engineering · Automation · AI
+
+---
+
+*DL-Labs — Where Infrastructure Meets Intelligence*
+*Infrastructure · Engineering · Automation · AI*,
+
+ 
