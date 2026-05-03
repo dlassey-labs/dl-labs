@@ -4,9 +4,6 @@
 
 </div>
 
-[![Mirrored from GitLab](https://img.shields.io/badge/Mirrored_from-GitLab-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)](#-repository-source)
-[![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)](#)
-[![Made by](https://img.shields.io/badge/Made_by-Dosseh_Lassey-1C3557?style=for-the-badge)](https://dlaxis.com)
 
 <div align="center">
 
