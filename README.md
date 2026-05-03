@@ -85,8 +85,9 @@ GitLab acts as the **central control plane**, orchestrating provisioning, config
 > public showcase and portfolio reference.
 >
 > **Pull requests and issues are not accepted on GitHub.** For inquiries, collaboration 
-> opportunities, or feedback, please reach out via the contact information below.
-
+> opportunities, or feedback, please reach out via the contact information below. 
+ www.linkedin.com/in/dosseh-lassey
+ 
 ---
 
 ## 👤 Author
