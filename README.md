@@ -86,7 +86,7 @@ Infrastructure · Engineering · Automation · AI
 
 ---
 
-*DL-Labs — Where Infrastructure Meets Intelligence*|
+*DL-Labs — Where Infrastructure Meets Intelligence* |
 *Infrastructure · Engineering · Automation · AI*
 
  
