@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🚀 DL LABS – Infrastructure , Automation & AI Platform
+#  DL LABS – Infrastructure , Automation & AI Platform
 
 </div>
 
