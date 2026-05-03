@@ -4,7 +4,9 @@
 
 </div>
 
-
+[![Mirrored from GitLab](https://img.shields.io/badge/Mirrored_from-GitLab-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)](#-repository-source)
+[![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)](#)
+[![License](https://img.shields.io/badge/License-Private-lightgrey?style=for-the-badge)](#)
 
 <div align="center">
 
@@ -28,6 +30,14 @@ DL LABS is a self-hosted infrastructure platform designed to:
 
 ## 🧱 Core Stack
 
+![Proxmox](https://img.shields.io/badge/Proxmox-E57000?style=flat-square&logo=proxmox&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
+![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white)
+![GitLab CI](https://img.shields.io/badge/GitLab_CI-FC6D26?style=flat-square&logo=gitlab&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![OpenShift](https://img.shields.io/badge/OpenShift-EE0000?style=flat-square&logo=redhatopenshift&logoColor=white)
+
 - Proxmox (Virtualization)
 - vSphere (Virtualization)
 - VCF (Virtualization)
@@ -35,13 +45,13 @@ DL LABS is a self-hosted infrastructure platform designed to:
 - Ansible (Configuration Management)
 - GitLab CI/CD (Orchestration)
 - Docker / Kubernetes / OpenShift
-- AI Agents (LangGraph, MCP, Ollama)
+- AI (LangGraph, MCP, Ollama)
 
 ---
 
 ## 🏗️ Architecture
 
-GitLab acts as the central control plane:
+GitLab acts as the **central control plane**, orchestrating provisioning, configuration management, and CI/CD pipelines . AWX handles Ansible orchestration, while Terraform manages declarative infrastructure on Proxmox.
 
 
 ---
@@ -75,6 +85,17 @@ GitLab acts as the central control plane:
 - [ ] Self-service portal
 - [ ] AI Agent integration
 - [ ] Observability stack
+
+---
+
+## 🔄 Repository Source
+
+> **This repository is automatically mirrored from a self-hosted GitLab instance.**  
+> Active development happens upstream on GitLab. This GitHub repository serves as a 
+> public showcase and portfolio reference.
+>
+> **Pull requests and issues are not accepted on GitHub.** For inquiries, collaboration 
+> opportunities, or feedback, please reach out via the contact information below.
 
 ---
 
