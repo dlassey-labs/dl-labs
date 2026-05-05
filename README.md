@@ -24,7 +24,7 @@
 
 - 🏗 **Real-world Enterprise scenarios** — simulate and validate production-like architectures
 
-- 🤖 **AI integration & operations** — explore self-hosted LLMs, agents, RAG patterns and integrate intelligent automation into IT workflows
+- 🤖 **AI integration & Ops** — explore self-hosted LLMs, agents, RAG patterns and integrate intelligent automation into IT workflows
 
 
 ---
