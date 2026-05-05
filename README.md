@@ -31,38 +31,22 @@
 
 ## 🧱 Core Stack
 
+| Domain | Tools |
+|---|---|
+| **Compute & Virtualization** | Proxmox  · VMware vSphere  |
+| **Containers & Orchestration** | Docker · Kubernetes |
+| **Infrastructure as Code & Configuration** | Terraform · Ansible |
+| **CI/CD & Automation** | GitLab (self-hosted) · GitLab Runner · AWX · n8n |
+| **Identity, Secrets & System Lifecycle** | Active Directory · HashiCorp Vault · Canonical Landscape · Foreman |
+| **Network & Edge** | OPNsense · Pi-hole · Nginx Proxy Manager · NetBox |
+| **Observability & Security** | Wazuh · Zabbix · Grafana |
+| **Self-Hosted AI Stack** | Ollama · LangGraph · Qdrant · Open WebUI |
 
-**Compute & Virtualization** 
-- Proxmox · vSphere  · Kubernetes · Docker 
-
-**Containers & Orchestration**  
-- Docker · Kubernetes
-
-**Infrastructure as Code & Configuration**  
-- Terraform · Ansible
-
-> *Multi-hypervisor IaC : Terraform modules and Ansible playbooks designed to work seamlessly accross Proxmox and VMware vSphere environments.*
-
-
-**CI/CD & Automation**
-- GitLab (self-hosted) · GitLab Runner · AWX · n8n
-
-**Identity, Secrets & Patch Management**
-- Active Directory · Vault · Canonical Landscape · Foreman   
-
-**Network & Edge**
-- OPNsense · Pi-hole · Nginx Proxy Manager · Nginx · NetBox 
-
-**Observability & Security**
-- Wazuh · Zabbix · Grafana 
-
-**Self-Hosted AI Stack**
-- Ollama · LangGraph · Qdrant · Open WebUI
+> *Multi-hypervisor IaC: Terraform modules and Ansible playbooks designed to work seamlessly across Proxmox and vSphere environments.*
 
 **In Progress**
 
 Currently exploring and integrating into the lab:
-
 - **VMware Cloud Foundation (VCF)** — full SDDC stack evaluation
 - **Dify** — no-code platform to build AI assistants and workflows
 
