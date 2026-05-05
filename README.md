@@ -16,26 +16,64 @@
 
 ## 🎯 Purpose
 
-DL LABS is a self-hosted infrastructure platform designed to:
+**DL LABS is a self-hosted experimentation platform** for modern IT infrastructure, automation, and AI operations. It is designed for:
 
-- Automate infrastructure provisioning
-- Standardize deployments
-- Experiment with AI-driven operations
-- Build real-world enterprise scenarios
+- 🔬 **Experimentation** — design and validate production-ready patterns across open-source and enterprise technologies
+
+- 🛠 **Reference blueprints** — reusable IaC modules, playbooks, pipeline templates to enable scalable and automated deployments
+
+- 🏗 **Real-world Enterprise scenarios** — simulate and validate production-like architectures
+
+- 🤖 **AI integration & operations** — explore self-hosted LLMs, agents, RAG patterns, and integrate intelligent automation into IT workflows
+
 
 ---
 
 ## 🧱 Core Stack
 
 
-- Proxmox (Virtualization)
-- vSphere (Virtualization)
-- VCF (Virtualization) in progress
-- Terraform (Infrastructure as Code)
-- Ansible (Configuration Management)
-- GitLab CI/CD (Orchestration)
-- Docker / Kubernetes / OpenShift
-- AI (LangGraph, MCP, Ollama)
+**Infrastructure & Virtualization** 
+- Proxmox · vSphere  · Kubernetes · Docker 
+
+**Containers & Orchestration**  
+- Docker · Kubernetes
+
+**Infrastructure as Code & Configuration**  
+- Terraform · Ansible
+
+> *Multi-hypervisor IaC : Terraform modules and Ansible playbooks designed to work seamlessly accross Proxmox and VMware vSphere environments.*
+
+
+
+**CI/CD & Automation**
+
+- GitLab (self-hosted) · GitLab Runner · AWX · n8n
+
+**Identity, Secrets & Patch Management**
+
+- Active Directory · Vault · Canonical Landscape · Foreman   
+
+**Network & Edge**
+
+- OPNsense · Pi-hole · Nginx Proxy Manager · Nginx · NetBox 
+
+**Observability & Security**
+
+- Wazuh · Zabbix · Grafana 
+
+**Self-Hosted AI Stack**
+
+- Ollama · LangGraph · Qdrant · Open WebUI
+
+
+
+**In Progress**
+
+Currently exploring and integrating into the lab:
+
+- **VMware Cloud Foundation (VCF)** — full SDDC stack evaluation
+- **Dify** — no-code platform to build AI assistants and workflows
+
 
 ---
 
@@ -46,36 +84,51 @@ GitLab acts as the **central control plane**, orchestrating provisioning, config
 
 ---
 
-## 📂 Structure
 
-- INFRA → provisioning & automation
-- NETWORK → DNS / firewall / routing
-- AUTOMATION → workflows & RPA
-- AI → agents & intelligent systems
-- SECURITY → monitoring & protection
-- PLATFORM → containers & orchestration
-- OBSERVABILITY → metrics & logs
+## 📁 Domain Coverage
+
+| Domain | Scope |
+|---|---|
+| 🛠 **INFRA** | Provisioning, Automation, IaC, Configuration management |
+| 🌐 **NETWORK** | DNS, firewall, reverse proxy, segmentation |
+| ⚙️ **AUTOMATION** | Workflows, RPA, scheduled jobs |
+| 🧠 **AI** | Self-hosted LLMs, agents, vector search, RAG, Intelligent systems |
+| 🔒 **SECURITY** | SIEM, vulnerability scanning, secrets management |
+| 📦 **PLATFORM** | Containers, orchestration, service delivery |
+| 📊 **OBSERVABILITY** | Metrics, logs, alerting |
 
 ---
 
 ## ⚙️ Use Cases
 
-- VM automated deployment (Terraform + Ansible)
-- Infrastructure self-service
-- AI-assisted operations
-- Monitoring & alerting
-- Security detection (Wazuh)
+- **Automated VM lifecycle** — Terraform provisions, Ansible configures, AWX orchestrates
+- **Patch management at scale** — Canonical Landscape with environment-based access groups, LivePatch, Foreman + Katello
+- **Self-service infrastructure** — GitLab pipelines triggering parameterized AWX templates
+- **AI-assisted operations** — Local LLMs (Ollama) with RAG (Qdrant) for ops documentation queries
+- **Security detection** — Wazuh SIEM with custom rules and Ansible-deployed agents
+- **Centralized monitoring** — Zabbix for infrastructure, Grafana for visualization
+
+---
+
+## 🎓 Production Experience
+
+Beyond this experimentation platform, my hands-on experience extends to enterprise-grade environments:
+
+![VMware vSphere](https://img.shields.io/badge/VMware_vSphere-607078?style=flat-square&logo=vmware&logoColor=white)
+![Microsoft Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![Amazon Web Services](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
 
 ---
 
 ## 🚀 Roadmap
 
-- [ ] Terraform pipeline
+- [ ] Terraform (for Proxmox and vSphere)
 - [ ] Ansible automation
-- [ ] Self-service portal
+- [ ] GitLab CI/CD pipeline
 - [ ] AI Agent integration
 - [ ] Observability stack
-
+- [ ] Self-service provisioning portal
+- [ ] Security & Governance (IAM, RBAC, Zero Trust, Secrets, PKI, SIEM)
 ---
 
 ## 🔄 Repository Source
@@ -93,7 +146,7 @@ GitLab acts as the **central control plane**, orchestrating provisioning, config
 ## 👤 Author
 
 **Dosseh L**
-Founder, DL-LABS | Consultant |
+Founder, DL-LABS | Technology and Strategic Consultant |
 Infrastructure · Engineering · Automation · AI
 
 ---
