@@ -24,7 +24,7 @@
 
 - 🏗 **Real-world Enterprise scenarios** — simulate and validate production-like architectures
 
-- 🤖 **AI integration & operations** — explore self-hosted LLMs, agents, RAG patterns, and integrate intelligent automation into IT workflows
+- 🤖 **AI integration & operations** — explore self-hosted LLMs, agents, RAG patterns and integrate intelligent automation into IT workflows
 
 
 ---
@@ -32,7 +32,7 @@
 ## 🧱 Core Stack
 
 
-**Infrastructure & Virtualization** 
+**Compute & Virtualization** 
 - Proxmox · vSphere  · Kubernetes · Docker 
 
 **Containers & Orchestration**  
@@ -44,28 +44,20 @@
 > *Multi-hypervisor IaC : Terraform modules and Ansible playbooks designed to work seamlessly accross Proxmox and VMware vSphere environments.*
 
 
-
 **CI/CD & Automation**
-
 - GitLab (self-hosted) · GitLab Runner · AWX · n8n
 
 **Identity, Secrets & Patch Management**
-
 - Active Directory · Vault · Canonical Landscape · Foreman   
 
 **Network & Edge**
-
 - OPNsense · Pi-hole · Nginx Proxy Manager · Nginx · NetBox 
 
 **Observability & Security**
-
 - Wazuh · Zabbix · Grafana 
 
 **Self-Hosted AI Stack**
-
 - Ollama · LangGraph · Qdrant · Open WebUI
-
-
 
 **In Progress**
 
@@ -73,7 +65,6 @@ Currently exploring and integrating into the lab:
 
 - **VMware Cloud Foundation (VCF)** — full SDDC stack evaluation
 - **Dify** — no-code platform to build AI assistants and workflows
-
 
 ---
 
