@@ -113,14 +113,14 @@ Beyond this experimentation platform, my hands-on experience extends to enterpri
 >
 > **Pull requests and issues are not accepted on GitHub.** For inquiries, collaboration 
 > opportunities, or feedback, please reach out via the contact information below. 
- www.linkedin.com/in/dosseh-lassey
+ contact@dossehlassey.me
  
 ---
 
 ## 👤 Author
 
 **Dosseh L**
-Founder, DL-LABS | Technology and Strategic Consultant |
+Founder, DL-LABS | Technology and Strategy Consultant |
 Infrastructure · Engineering · Automation · AI
 
 ---
