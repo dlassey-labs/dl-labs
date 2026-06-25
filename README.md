@@ -113,7 +113,7 @@ flowchart LR
 - **Security** — two-tier internal PKI, centralized secret management, Wazuh detection engineering.
 - **Observability** — Zabbix + Grafana monitoring across the estate.
 - **Applied AI** — local LLM serving and an MCP tool bridge that lets agents query and act on the lab.
-- **Documentation** — bilingual (FR/EN) runbooks and an architecture decision record per structural choice.
+
 
 <!--
   ## 🗺️ Roadmap  — to be introduced later.
