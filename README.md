@@ -13,17 +13,17 @@
 
 
 
-## 🎯 Purpose
+## ◆ Purpose
 
 **DL LABS is a self-hosted platform** for experimentation, learning and practical demonstrations accross modern IT infrastructure, automation, platform engineering and AI integration and Orchestration. It is designed for:
 
-- 🔬 **Experimentation** — design and validate production-ready patterns across open-source and enterprise technologies
+-  **Experimentation** — design and validate production-ready patterns across open-source and enterprise technologies
 
-- 🛠 **Reference blueprints** — reusable IaC modules, playbooks, pipeline templates to enable scalable and automated deployments
+-  **Reference blueprints** — reusable IaC modules, playbooks, pipeline templates to enable scalable and automated deployments
 
-- 🏗 **Real-world Enterprise scenarios** — simulate and validate production-like architectures
+-  **Real-world Enterprise scenarios** — simulate and validate production-like architectures
 
-- 🤖 **AI integration & Ops** — explore self-hosted LLMs, agents, RAG patterns and integrate intelligent automation into IT workflows
+-  **AI integration & Ops** — explore self-hosted LLMs, agents, RAG patterns and integrate intelligent automation into IT workflows
 
 
 ---
