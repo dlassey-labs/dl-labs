@@ -15,7 +15,7 @@
 
 ## 🎯 Purpose
 
-**DL LABS is a self-hosted experimentation platform** for modern IT infrastructure, automation, and AI operations. It is designed for:
+**DL LABS is a self-hosted platform** for experimentation, learning and practical demonstrations accross modern IT infrastructure, automation, platform engineering and AI integration and Orchestration. It is designed for:
 
 - 🔬 **Experimentation** — design and validate production-ready patterns across open-source and enterprise technologies
 
@@ -27,6 +27,7 @@
 
 
 ---
+
 
 ## 🧱 Core Stack
 
@@ -43,35 +44,55 @@
 
 > *Multi-hypervisor IaC: Terraform modules and Ansible playbooks designed to work seamlessly across Proxmox and vSphere environments.*
 
+
 **In Progress**
 
 Currently exploring and integrating into the lab:
 - **VMware Cloud Foundation (VCF)** — full SDDC stack evaluation
 - **Dify** — no-code platform to build AI assistants and workflows
 
+**Cloud-portable** — built on Terraform and Ansible, the same patterns could be extended
+beyond the lab's hypervisors to public cloud (AWS, Azure) and enterprise VMware vSphere.
+
+---
+
+
+## 🧭 Core Focus Area
+
+| | |
+|---|---|
+| **Engineering** | Infrastructure Engineering · Platform Engineering ·|
+| **Automation & AI** | Infrastructure Automation · AI Integration & Orchestration |
+| **Security & Identity** | Security Engineering · Identity & Access Management · Observability |
+| **Strategy** | Digital Transformation · IT Governance |
+
 ---
 
 ## 🏗️ Architecture
 
-GitLab acts as the **central control plane**, orchestrating provisioning, configuration management, and CI/CD pipelines . Ansible handles Configuration Management, while Terraform manages declarative infrastructure on Proxmox.
+DL Labs is designed around a stable set of **responsibilities**, not specific products.
 
+
+- **Control plane** — single source of truth and pipelines; drives everything downstream.
+- **IaC layer** declares infrastructure; 
+- **Secrets & PKI** back the entire chain , nothing is stored in clear text.
+- **Compute** runs on one or more hypervisors, kept deliberately interchangeable.
+- **Observability** and **AI services** are cross-cutting and consume the same fabric.
+
+GitLab acts as the central control plane, orchestrating provisioning, configuration management, and CI/CD pipelines . Ansible handles Configuration Management, while Terraform manages declarative infrastructure on Proxmox.
+
+
+```mermaid
+flowchart LR
+  CP["Control Plane<br/>GitLab + CI/CD"] --> IAC["IaC + Configuration"]
+  IAC --> COMPUTE["Compute<br/>hypervisors"]
+  SEC[("Secrets & PKI")] --> IAC
+  COMPUTE --> OBS["Observability"]
+  COMPUTE --> AI["AI Services"]
+```
 
 ---
 
-
-## 📁 Domain Coverage
-
-| Domain | Scope |
-|---|---|
-| 🛠 **INFRA** | Provisioning, Automation, IaC, Configuration management |
-| 🌐 **NETWORK** | DNS, firewall, reverse proxy, segmentation |
-| ⚙️ **AUTOMATION** | Workflows, RPA, scheduled jobs |
-| 🧠 **AI** | Self-hosted LLMs, agents, vector search, RAG, Intelligent systems |
-| 🔒 **SECURITY** | SIEM, vulnerability scanning, secrets management |
-| 📦 **PLATFORM** | Containers, orchestration, service delivery |
-| 📊 **OBSERVABILITY** | Metrics, logs, alerting |
-
----
 
 ## ⚙️ Use Cases
 
@@ -84,26 +105,25 @@ GitLab acts as the **central control plane**, orchestrating provisioning, config
 
 ---
 
-## 🎓 Production Experience
 
-Beyond this experimentation platform, my hands-on experience extends to enterprise-grade environments:
+## ✅ Demonstrated Capabilities
 
-![VMware vSphere](https://img.shields.io/badge/VMware_vSphere-607078?style=flat-square&logo=vmware&logoColor=white)
-![Microsoft Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
-![Amazon Web Services](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
+- **Infrastructure & IaC** — declarative provisioning, automated VM lifecycle, configuration management.
+- **Pipelines** — GitLab CI/CD with Vault-injected secrets.
+- **Security** — two-tier internal PKI, centralized secret management, Wazuh detection engineering.
+- **Observability** — Zabbix + Grafana monitoring across the estate.
+- **Applied AI** — local LLM serving and an MCP tool bridge that lets agents query and act on the lab.
+- **Documentation** — bilingual (FR/EN) runbooks and an architecture decision record per structural choice.
+
+<!--
+  ## 🗺️ Roadmap  — to be introduced later.
+  Forward-looking items live here once you're ready. Per-project status lives in each
+  project's own repository, not on this showcase page.
+-->
+
 
 ---
 
-## 🚀 Roadmap
-
-- [ ] Terraform (for Proxmox and vSphere)
-- [ ] Ansible automation
-- [ ] GitLab CI/CD pipeline
-- [ ] AI Agent integration
-- [ ] Observability stack
-- [ ] Self-service provisioning portal
-- [ ] Security & Governance (IAM, RBAC, Zero Trust, Secrets, PKI, SIEM)
----
 
 ## 🔄 Repository Source
 
@@ -120,12 +140,10 @@ Beyond this experimentation platform, my hands-on experience extends to enterpri
 ## 👤 Author
 
 **Dosseh L**
-Founder, DL-LABS | Technology and Strategy Consultant |
+Founder, DL-LABS - Where Infrastructure Meets Intelligence 
 Infrastructure · Engineering · Automation · AI
 
 ---
 
-*DL-Labs — Where Infrastructure Meets Intelligence* |
-*Infrastructure · Engineering · Automation · AI*
 
  
