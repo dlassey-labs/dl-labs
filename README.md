@@ -13,7 +13,7 @@
 
 
 
-## ◆ Purpose
+##  Purpose
 
 **DL LABS is a self-hosted platform** for experimentation, learning and practical demonstrations accross modern IT infrastructure, automation, platform engineering and AI integration and Orchestration. It is designed for:
 
