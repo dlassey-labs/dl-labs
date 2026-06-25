@@ -139,7 +139,7 @@ flowchart LR
 
 ## 👤 Author
 
-**Dosseh L**
+**Dosseh Lassey**
 Founder, DL-LABS - Where Infrastructure Meets Intelligence 
 Infrastructure · Engineering · Automation · AI
 
