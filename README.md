@@ -83,14 +83,15 @@ GitLab acts as the central control plane, orchestrating provisioning, configurat
 
 
 ```mermaid
+
 flowchart LR
   CP["Control Plane<br/>GitLab + CI/CD"] --> IAC["IaC + Configuration"]
   IAC --> COMPUTE["Compute<br/>hypervisors"]
   SEC[("Secrets & PKI")] --> IAC
   COMPUTE --> OBS["Observability"]
   COMPUTE --> AI["AI Services"]
-```
 
+```
 ---
 
 
