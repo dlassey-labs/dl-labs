@@ -90,6 +90,12 @@ flowchart LR
   COMPUTE --> OBS["Observability"]
   COMPUTE --> AI["AI Services"]
 ```
+flowchart LR
+  CP["Control Plane — GitLab + CI/CD"] --> IAC["IaC + Configuration"]
+  IAC --> COMPUTE["Compute — hypervisors"]
+  SEC["Secrets and PKI"] --> IAC
+  COMPUTE --> OBS["Observability"]
+  COMPUTE --> AI["AI Services"]
 
 ---
 
